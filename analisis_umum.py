@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 # Load dataset
-file_path = "E:\\Kuliah Indro\\Magang\\PenjualanABC.xlsx"
+file_path = "E:\\Kuliah Indro\\Magang\\Data Analisis\\PenjualanABC.xlsx"
 df = pd.read_excel(file_path)
 
 # Membersihkan kumpulan data dengan menghapus baris yang tidak perlu dan mengatur nama kolom yang tepat
